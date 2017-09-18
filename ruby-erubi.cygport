@@ -1,0 +1,15 @@
+inherit rubygem
+
+NAME="ruby-erubi"
+VERSION=1.6.1
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby ERB template engine"
+DESCRIPTION="Erubi is a ERB template engine for ruby. It is a simplified fork
+of Erubis."
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_erubi_CONTENTS=${RUBYGEM_INSTDIR#/}" "${RUBYGEM_SPEC#/}
+ruby_erubi_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
