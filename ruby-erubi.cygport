@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-erubi"
-VERSION=1.6.1
+VERSION=1.7.1
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby ERB template engine"
